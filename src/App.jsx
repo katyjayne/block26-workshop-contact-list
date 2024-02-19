@@ -1,14 +1,16 @@
-import { ContactList} from "./components/ContactList";
+import { useState } from "react"
+import ContactList from "./components/ContactList"
 import './App.css'
 
-export default function App() {
-  // const [count, setCount] = useState(0)
+// const [contacts, setContacts] = dummyContacts();
+// console.log("Contacts: ", contacts);
 
+export default function App() {
   return (
     <>
       <ContactList />
     </>
-  )
+  );
 }
 
-export default App
+
